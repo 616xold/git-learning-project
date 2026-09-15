@@ -18,3 +18,9 @@ I'm Sohaib, a trainee Software Engineer at Upvest (UpRiser). I'm here to learn h
 ## Currently learning
 
 Go, Kubernetes, GCP, and how a regulated fintech ships software.
+
+## Three things I learned 
+
+- **`git commit --amend`** — didn't know this existed. Lets you fix the last commit (typo in the message, forgot a file) instead of piling on a new one. Just don't do it after pushing.
+- **`git diff --cached` and `--staged` are the same thing** — spent a while thinking they were different. Both show what's staged and about to be committed.
+- **`git restore` vs `git reset`** — the way I remember it: `restore` is for files, `reset` is for commits. `restore` throws away or unstages changes to a file; `reset` moves the branch back to an earlier commit.
